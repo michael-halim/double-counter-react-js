@@ -1,0 +1,29 @@
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 12rem;
+    margin: 2.5rem;
+}
+.score__label{
+    font-size: 3rem;
+}
+.team{
+    font-size: 1.5rem;
+}
+.score{
+font-size: 3rem;
+}
+.addButton{
+    padding: 15px;
+    width: 10rem;
+    border-radius: 8px;
+    cursor: pointer;
+    background: rgb(0, 151, 13);
+    font-size: 18px;
+    font-weight: bold;
+}
+.addButton:hover,
+.addButton:active{
+    opacity: 0.75;
+}
